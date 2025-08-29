@@ -21,7 +21,7 @@
   align-items: center; 
 }
 
-.MyBox , input, button{
+.MyBox , input{
  box-shadow: 1px 1px 10px black ;
  border-radius: 50px;
 
@@ -30,12 +30,7 @@
 
 input{
   padding: 10px;
-  /* width: 200px; */
+  width: 220px;
  border: none;
 }
 
-button{
-  padding: 10px;
- border: none;
-margin-left: 10px;
-}
