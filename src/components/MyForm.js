@@ -1,11 +1,10 @@
 import '../App.css';
 
-const MyForm = ({setColor, setCheckColor}) => {
+const MyForm = ({setColor}) => {
   return (
   <form onSubmit={(e)=>{
             e.preventDefault()  
           setColor(e.target.viyan.value)
-          setCheckColor(true)
             }}>
                 <input type="text"
                 placeholder="Write color name or hexa value"

@@ -1,9 +1,8 @@
-import React from 'react'
 
-const MyBoxColor = ({color,checkColor,hexaColor}) => {
+const MyBoxColor = ({color,hexaColor}) => {
   return (
     <div className='MyBox' style={{background: color}}>
-             <span>{ checkColor? (hexaColor): ('empty')}</span>
+             <span>{ color? (hexaColor): ('empty')}</span>
      </div>
   )
 }
