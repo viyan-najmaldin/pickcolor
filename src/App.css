@@ -1,5 +1,5 @@
 .App {
-    display: flex;
+  display: flex;
   justify-content: center;    
   align-items: center; 
   height: 100vh;
@@ -7,24 +7,30 @@
 }
 
 
-
-
 .MyBox{
   margin-bottom: 20px;
-  /* border: 1px solid black; */
-  box-shadow: 1px 1px 10px black ;
   height: 35vh;
   width: 240px;
   display: flex;             
   justify-content: center;    
   align-items: center; 
- border-radius: 50px;
 }
+
+.MyBox , input, button{
+ box-shadow: 1px 1px 10px black ;
+ border-radius: 50px;
+
+}
+
 
 input{
   padding: 10px;
-  width: 218px;
-  box-shadow: 1px 1px 10px black ;
+  /* width: 200px; */
  border: none;
- border-radius: 50px;
+}
+
+button{
+  padding: 10px;
+ border: none;
+margin-left: 10px;
 }
